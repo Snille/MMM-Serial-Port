@@ -1,0 +1,22 @@
+{
+  "name": "mmm-serial-port",
+  "version": "1.0.0",
+  "description": "A MagicMirror Serial Port Communication Module",
+  "main": "MMM-Serial-Port.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snille/MMM-Serial-Port.git"
+  },
+  "author": "Erik Pettersson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Snille/MMM-Serial-Port/issues"
+  },
+  "homepage": "https://github.com/Snille/MMM-Serial-Port#readme",
+  "dependencies": {
+    "serialport": "^9.0.2"
+  }
+}

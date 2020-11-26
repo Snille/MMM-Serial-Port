@@ -1,0 +1,44 @@
+/*****************************************************
+ * Magic Mirror                                      *
+ * Custom CSS for MMM-Serial-Port                    *
+ *                                                   *
+ * By Erik Pettersson                                *
+ * MIT Licensed.                                     *
+ *                                                   *
+ *****************************************************/
+.serial-menu {
+    display: flex;
+    align-items: stretch;
+}
+
+.serial-button {
+    z-index: 1;
+    /* Border */
+    border-style: solid;
+    border-width: 2px;
+    border-color: #999;
+    border-radius: 5px;
+
+    /* as container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 7px;
+    padding: 5px 12px;
+}
+
+.serial-picture {
+    margin: 5px 0;
+}
+
+.serial-text {
+    margin: -5px 0;
+}
+
+.serial-button.current-profile {
+    border-color: #666;
+    background-color: rgba(255, 255, 255, 0.08);
+    /* basically the same as background-color: #111; but then with a opacity */
+    color: #fff;
+}
